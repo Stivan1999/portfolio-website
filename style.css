@@ -1,6 +1,56 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
+}
+/* Navigation menu styling*/
+nav {
+  position: fixed;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background: #4070f4;
+}
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+nav .menu {
+  display: flex;
+}
+nav .navbar .menu li {
+  margin: 0 8px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+nav .navbar .menu li a {
+  color: white;
+}
+nav .navbar .menu li a:hover {
+  color: black;
+  transition: all 0.3s ease;
+}
+nav .logo a {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+nav .logo a:hover {
+  color: black;
+}
+
+.navbar .media-icons a {
+  font-size: 24px;
+  margin: 0 6px;
+  color: white;
+}
+.navbar .media-icons a:hover {
+  color: black;
+  transition: all 0.3s ease;
 }
