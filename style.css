@@ -68,21 +68,42 @@ nav .logo a:hover {
   display: none;
 }
 
+/* Side navigation menu buttons*/
+nav .menu-button,
+.navbar .cancel-button {
+  display: none;
+}
 
 
 /*Making the navigation bar responsive*/
-@media(max-width: 750px) {
+@media (max-width: 750px) {
   nav .navbar .menu {
     position: absolute;
-    left: 0;
+    left: -100%;
     top: 0;
     height: 100vh;
     max-width: 400px;
     width: 100%;
-    background: #0E2431;
+    background: #0e2431;
     flex-direction: column;
     align-items: center;
     padding-top: 60px;
+    transition: all 0.5s ease;
+  }
+
+  /* Side navigation menu buttons*/
+  nav .menu-button,
+  .navbar .cancel-button {
+    display: block;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 30px;
+    top: 20px;
+  }
+
+  nav .navbar.active .menu {
+    left: 0;
   }
 
   nav .navbar .menu li a {
@@ -97,7 +118,7 @@ nav .logo a:hover {
   }
 
   .navbar .media-icons a {
-    display: none
+    display: none;
   }
 
   .navbar .menu .responsive-media-icons {
@@ -117,6 +138,4 @@ nav .logo a:hover {
     color: #4070f4;
     transition: all 0.3s ease;
   }
-
-
 }
