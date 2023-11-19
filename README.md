@@ -9,7 +9,8 @@ The structure/road map I will be following is as follows:
       1. Work item #1: Create the skeleton for the navigation bar in HTMLW
       2. Work item #2: Style the navigation bar in style.css
       3. Work item #3 part #1: Make the navigation bar responsive
-         Work item #3 part #2: Add a menu and exit buttons to get in and out of the side responsive navigation bar
+         Work item #3 part #2: Add a menu and exit buttons to get in and out of the side responsive navigation bar.
+      4. Work item #4: cretae the rest of the Home/Landing page (text, image)
 2. organize project structure for Flask and start learning how to use it.
 3. Create another page (About me)
 4. Verify that I can navigate between the pages using flask

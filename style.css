@@ -74,6 +74,45 @@ nav .menu-button,
   display: none;
 }
 
+/*styling the rest of the home page (text and image)*/
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("/static/assets/images/picture3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.home .home-content {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.home .text .text-one {
+  font-size: 35px;
+}
+
+.home .text .text-two {
+  font-size: 85px;
+  margin: -3px;
+  font-weight: 600;
+}
+
+.home .text .text-three {
+  font-size: 50px;
+}
+
+.home .text .text-four {
+  font-size: 33px;
+  margin: 5px 0;
+}
 
 /*Making the navigation bar responsive*/
 @media (max-width: 750px) {
@@ -137,5 +176,23 @@ nav .menu-button,
   .menu .responsive-media-icons a :hover {
     color: #4070f4;
     transition: all 0.3s ease;
+  }
+
+  .home .text .text-two {
+    font-size: 75px;
+  }
+
+  .home .text .text-three {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 510px) {
+  .home .text .text-two {
+    font-size: 65px;
+  }
+
+  .home .text .text-three {
+    font-size: 30px;
   }
 }
