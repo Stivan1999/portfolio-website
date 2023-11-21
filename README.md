@@ -4,23 +4,28 @@ Creating a portfolio website for myself using CSS, HTML, Javascript, and python 
 
 The structure/road map I will be following is as follows:
 
+BUILD THE FRONTEND (HTML, CSS, JAVASCRIPTS)
+
 1. Create the Home/Landing page
    1. Navigation Bar/Menu
       1. Work item #1: Create the skeleton for the navigation bar in HTMLW
       2. Work item #2: Style the navigation bar in style.css
       3. Work item #3 part #1: Make the navigation bar responsive
          Work item #3 part #2: Add a menu and exit buttons to get in and out of the side responsive navigation bar.
-      4. Work item #4: cretae the rest of the Home/Landing page (text, image)
-2. organize project structure for Flask and start learning how to use it.
+   2. Work item #4: cretae the rest of the Home/Landing page (text, image)
+2. Create "contact me" page
+
+   1.
+
 3. Create another page (About me)
 4. Verify that I can navigate between the pages using flask
 5. TBD
 6. TBD
 7. TBD
 
-IMPORTANT NOTE for myself and anyone reading this: I am by no mean a web developer or have had experience with taht. I am also not planning on becoming a web developer.
-My main GOAL is to create a one-stop portfolio website by the end of this year (2023) and learn new things/have fun as much as possible along the way.
-With that being said, I am going to follow two sources to accomplish my goal
+IMPORTANT NOTE for myself and anyone reading this: I am by no mean a web developer or have had experience with that (at least up until I finish this project). I am also not planning on becoming a web developer.
+My main GOAL is to create a one-stop portfolio website by the end of this year (2023) and learn new things,know how websites are created from scratch, and have fun as much as possible along the way.
+With that being said, I am going to follow two sources to accomplish my goal:
 
 1. https://www.codingnepalweb.com/ is a websote that I found while doing some reserach on resources. I will be following a video of how
    they implement things and code along.
