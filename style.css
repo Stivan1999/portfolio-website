@@ -141,6 +141,10 @@ nav .menu-button,
   width: 25%;
   height: 100%;
   margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-me-container .content .left-side::before {
@@ -305,5 +309,34 @@ textarea {
 
   .home .text .text-three {
     font-size: 30px;
+  }
+}
+
+/* Making the "about me" page responsive */
+@media (max-width: 750px) {
+  .contact-me-container .content {
+    width: 90%;
+    background: #fff;
+    padding: 30px 60px 40px 40px;
+    margin: 40px 0;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .contact-me-container .content .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-me-container .content .left-side::before {
+    display: none;
+  }
+
+  .contact-me-container .content .right-side {
+    width: 100%;
+    margin-left: 0;
   }
 }
