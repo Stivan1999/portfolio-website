@@ -237,6 +237,7 @@ section .content {
   width: 80%;
   margin: 40px auto;
   font-family: "Poppins", sans-serif;
+  padding-top: 80px;
 }
 .about .about-details {
   display: flex;
