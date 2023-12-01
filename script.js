@@ -6,11 +6,9 @@ menuButton.onclick = function () {
   menuButton.style.opacity = "0";
   menuButton.style.pointerEvents = "none";
   navBar.classList.add("active");
-  aboutMeTitle.classList.remove("title");
 };
 cancelButton.onclick = function () {
   menuButton.style.opacity = "1";
   menuButton.style.pointerEvents = "auto";
   navBar.classList.remove("active");
-  aboutMeTitle.classList.add("title");
 };
