@@ -318,7 +318,6 @@ section .button button:hover {
 }
 .card-list .card-item img {
   width: 100%;
-  aspect-ratio: 16/9;
   border-radius: 8px;
   object-fit: cover;
 }

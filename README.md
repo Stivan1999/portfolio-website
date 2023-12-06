@@ -31,7 +31,9 @@ BUILD THE FRONTEND (HTML, CSS, JAVASCRIPTS)
 
 4. Create "blog" page
 
-   - Add HTML code
+   1. page to talk about books I read.
+   2. page to talk about experiences and travel in 2023.
+   3. a placeholder page for additional information later.
 
 IMPORTANT NOTE for myself and anyone reading this: I am by no mean a web developer or have had experience with that (at least up until I finish this project) so this will be kind of messy. I am also not planning on becoming a web developer but wanted to know/learn how websites are styled and structured from scratch.
 
