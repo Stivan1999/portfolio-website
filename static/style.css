@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Navigation menu styling*/
+nav {
+  position: fixed;
+  width: 100%;
+  font-family: "Ubuntu", sans-serif;
+  background: #4070f4;
+}
+
+nav .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 10px auto;
+}
+
+nav .menu {
+  display: flex;
+}
+
+nav .navbar .menu li {
+  margin: 0 8px;
+  list-style: none;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+nav .navbar .menu li a {
+  color: white;
+}
+
+nav .navbar .menu li a:hover {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+nav .logo a {
+  font-size: 40px;
+  font-weight: 500;
+  color: white;
+}
+
+nav .logo a:hover {
+  color: black;
+}
+
+.navbar .media-icons a {
+  font-size: 24px;
+  margin: 0 6px;
+  color: white;
+}
+
+.navbar .media-icons a:hover {
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.navbar .menu .responsive-media-icons {
+  display: none;
+}
+
+/* Side navigation menu buttons*/
+nav .menu-button,
+.navbar .cancel-button {
+  display: none;
+}
+
+/*styling the rest of the home page (text and image)*/
+.home {
+  height: 100vh;
+  width: 100%;
+  background: url("/static/assets/images/picture3.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.home .home-content {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+.home .text .text-one {
+  font-size: 35px;
+}
+
+.home .text .text-two {
+  font-size: 85px;
+  margin: -3px;
+  font-weight: 600;
+}
+
+.home .text .text-three {
+  font-size: 50px;
+}
+
+.home .text .text-four {
+  font-size: 33px;
+  margin: 5px 0;
+}
+
+/* styling the contact-me page */
+.contact-me-container {
+  min-height: 100vh;
+  width: 100%;
+  background: #c8e8e9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu", sans-serif;
+  padding-top: 60px;
+}
+
+.contact-me-container .content {
+  width: 80%;
+  background: #fff;
+  padding: 30px 60px 40px 40px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-me-container .content .left-side {
+  width: 25%;
+  height: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-me-container .content .left-side .details {
+  margin: 14px;
+  text-align: center;
+}
+
+.contact-me-container .content .left-side .details i {
+  font-size: 30px;
+  color: #3e2093;
+}
+
+.contact-me-container .content .left-side .details .topic {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.contact-me-container .content .left-side .details .text-one,
+.text-two {
+  font-size: 14px;
+  color: #afafb6;
+}
+
+.contact-me-container .content .right-side {
+  width: 75%;
+  margin-left: 75px;
+}
+
+.contact-me-container .content .right-side .topic-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #3e2093;
+}
+
+.contact-me-container .content .right-side .input-box {
+  height: 50px;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.contact-me-container .content .right-side .input-box input,
+textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  background: #f0f1f8;
+  font-size: 16px;
+  padding: 0 15px;
+  resize: none;
+}
+
+.contact-me-container .content .right-side .message-box {
+  min-height: 110px;
+  margin-top: 6px;
+}
+
+.contact-me-container .content .right-side .button input[type="button"] {
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 16px;
+  background: #3e2093;
+  cursor: pointer;
+}
+
+.contact-me-container .content .right-side .button input[type="button"]:hover {
+  background: #5029bc;
+  transition: all 0.3s ease;
+}
+
+/* styling the about-me page */
+section {
+  padding-top: 40px;
+}
+section .content {
+  width: 80%;
+  margin: 40px auto;
+  font-family: "Poppins", sans-serif;
+  padding-top: 80px;
+}
+.about .about-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section .title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+section .title span {
+  color: #0e2431;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 8px;
+}
+
+.about .about-details .left {
+  width: 45%;
+}
+.about .left img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.about-details .right {
+  width: 55%;
+}
+section .topic {
+  color: #0e2431;
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.about-details .right p {
+  text-align: justify;
+  color: #0e2431;
+}
+section .button {
+  margin: 16px 0;
+}
+section .button button {
+  outline: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 25px;
+  font-weight: 400;
+  background: #4070f4;
+  color: #fff;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+section .button button:hover {
+  border-color: #4070f4;
+  background-color: #fff;
+  color: #4070f4;
+}
+
+/* styling the blog page */
+.blog {
+  background: #ecececdb;
+}
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 20px;
+  font-family: "Ubuntus", sans-serif;
+}
+.card-list .card-item {
+  background: #fff;
+  padding: 26px;
+  border-radius: 8px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  list-style: none;
+  cursor: pointer;
+  text-decoration: none;
+  border: 2px solid transparent;
+  transition: border 0.5s ease;
+  margin-top: 80px;
+}
+.card-list .card-item:hover {
+  border: 2px solid #000;
+}
+.card-list .card-item img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.card-list span {
+  display: inline-block;
+  background: #f7dff5;
+  margin-top: 32px;
+  padding: 8px 15px;
+  font-size: 0.75rem;
+  border-radius: 50px;
+  font-weight: 600;
+}
+.card-list .developer {
+  background-color: #f7dff5;
+  color: #b22485;
+}
+.card-list .designer {
+  background-color: #d1e8ff;
+  color: #2968a8;
+}
+.card-list .editor {
+  background-color: #d6f8d6;
+  color: #205c20;
+}
+.card-item h3 {
+  color: #000;
+  font-size: 1.438rem;
+  margin-top: 28px;
+  font-weight: 600;
+}
+.card-item .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: rotate(-35deg);
+  height: 40px;
+  width: 40px;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin-top: 40px;
+  transition: 0.2s ease;
+}
+.card-list .card-item:hover .arrow {
+  background: #000;
+  color: #fff;
+}
+@media (max-width: 1200px) {
+  .card-list .card-item {
+    padding: 15px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .card-list {
+    margin: 0 auto;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+  margin-top: 120px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*Making the navigation bar responsive*/
+@media (max-width: 750px) {
+  nav .navbar .menu {
+    position: absolute;
+    left: -100%;
+    top: 0;
+    height: 100vh;
+    max-width: 400px;
+    width: 100%;
+    background: #0e2431;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    transition: all 0.5s ease;
+  }
+
+  /* Side navigation menu buttons*/
+  nav .menu-button,
+  .navbar .cancel-button {
+    display: block;
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    right: 30px;
+    top: 20px;
+  }
+
+  nav .navbar.active .menu {
+    left: 0;
+  }
+
+  nav .navbar .menu li a {
+    display: block;
+    font-size: 24px;
+    margin: 14px 0;
+  }
+
+  nav .navbar .menu li a:hover {
+    color: #4070f4;
+    transition: all 0.3s ease;
+  }
+
+  .navbar .media-icons a {
+    display: none;
+  }
+
+  .navbar .menu .responsive-media-icons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+  }
+
+  .menu .responsive-media-icons a {
+    padding: 0 6px;
+    color: #fff;
+    font-size: 25px;
+    transition: all 0.3s ease;
+  }
+
+  .menu .responsive-media-icons a :hover {
+    color: #4070f4;
+    transition: all 0.3s ease;
+  }
+
+  .home .text .text-two {
+    font-size: 75px;
+  }
+
+  .home .text .text-three {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 510px) {
+  .home .text .text-two {
+    font-size: 65px;
+  }
+
+  .home .text .text-three {
+    font-size: 30px;
+  }
+}
+
+/* Making the "about me" page responsive */
+@media (max-width: 750px) {
+  .contact-me-container .content {
+    width: 90%;
+    background: #fff;
+    padding: 30px 60px 40px 40px;
+    margin: 40px 0;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .contact-me-container .content .left-side {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-me-container .content .right-side {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+/* Making the contact me page responsive */
+@media (max-width: 950px) {
+  .about-me-container .content {
+    width: 90%;
+    background: #fff;
+    padding: 30px 60px 40px 40px;
+    margin: 40px 0;
+    height: 100%;
+    flex-direction: column-reverse;
+  }
+
+  .contact-me-container .content .left {
+    width: 100%;
+    flex-direction: row;
+    margin-top: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1138px) {
+  .about .about-details {
+    justify-content: center;
+    flex-direction: column;
+  }
+  .about .about-details .left {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .about-details .right {
+    width: 90%;
+    margin: 40px 0;
+  }
+}
+@media (max-width: 900px) {
+  .about .left img {
+    height: 350px;
+    width: 350px;
+  }
+}
