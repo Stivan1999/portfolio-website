@@ -203,7 +203,7 @@ textarea {
   margin-top: 6px;
 }
 
-.contact-me-container .content .right-side .button input[type="button"] {
+.contact-me-container .content .right-side .button input[type="submit"] {
   color: #fff;
   font-size: 18px;
   border: none;

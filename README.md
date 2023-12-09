@@ -43,7 +43,7 @@ THE BACKEND
    files into it.
 2) move CSS and JS files into static folder
 3) Create a python script with simple flask server
-4) 
+4) Store information from form in contact-me page.
 
 IMPORTANT NOTE for myself and anyone reading this: I am by no mean a web developer or have had experience with that (at least up until I finish this project) so this will be kind of messy. I am also not planning on becoming a web developer but wanted to know/learn how websites are styled and structured from scratch.
 
