@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, send_file
 import csv
 
 app = Flask(__name__)
@@ -32,3 +32,9 @@ def submit_form():
         return redirect("./thank_you.html")
     else:
         return 'Something went wrong!!'
+
+
+@app.route('/download')
+def download_file():
+    file = "Youssef's Resume.docx"
+    return send_file(file, as_attachment=True)
